@@ -1,32 +1,48 @@
 <!doctype html>
 <html lang="fr">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="IlonaBStudio : paroles de chansons, visuels, traitement audio, mastering et vidéos pour artistes.">
-<title>-IlonaBStudio- | Création artistique</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="IlonaBStudio — montage vidéo, clips, visuels IA, écriture et traitement audio pour artistes.">
+<title>-IlonaBStudio- | Studio créatif</title>
 <style>
-:root{--ink:#171717;--sub:#555;--rule:#ddd;--paper:#fff}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:14px/1.8 'Courier New',Courier,monospace}a{color:inherit}a:focus-visible{outline:2px solid #222;outline-offset:4px}.wrap{width:min(100% - 40px,850px);margin:auto}header{display:flex;align-items:center;justify-content:space-between;gap:15px;padding:23px 0;border-bottom:1px solid var(--rule)}.brand{text-decoration:none;font-weight:bold;letter-spacing:.045em}nav{display:flex;gap:19px}nav a{text-decoration:none;font-size:12px}nav a:hover{text-decoration:underline}.hero{text-align:center;padding:48px 0 52px}.art{display:block;width:min(100%,570px);height:auto;margin:0 auto 35px}.eyebrow{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--sub)}h1{font-size:clamp(22px,4vw,32px);line-height:1.35;font-weight:normal;margin:12px 0 17px}h2{font-size:17px;font-weight:normal;margin:8px 0 16px}.intro{max-width:700px;margin:auto}.intro p{margin:0 auto 20px}.intro p:last-child{margin-bottom:0}.actions{display:flex;justify-content:center;flex-wrap:wrap;gap:12px;margin-top:28px}.button{display:inline-block;padding:10px 18px;border:1px solid var(--ink);text-decoration:none;font-size:12px}.button.primary{background:var(--ink);color:#fff}.button:hover{background:#eee;color:var(--ink)}section{border-top:1px solid var(--rule);padding:42px 0}.section-no{font-size:11px;letter-spacing:.1em;color:var(--sub)}.services{display:grid;grid-template-columns:repeat(2,1fr);gap:0 30px}.service{border-top:1px solid var(--rule);padding:18px 0}.service p{color:var(--sub);font-size:12px;margin:5px 0 0}.contact{text-align:center;padding:48px 0 60px}.contact p{margin:4px 0}footer{border-top:1px solid var(--rule);padding:23px 0 30px;display:flex;justify-content:space-between;gap:16px;color:var(--sub);font-size:11px}@media(max-width:600px){header{flex-direction:column;gap:10px}nav{gap:13px}.hero{padding:30px 0 42px}.art{margin-bottom:28px}.services{grid-template-columns:1fr}section{padding:33px 0}footer{flex-direction:column;gap:4px}}
+:root{--ink:#171717;--muted:#666;--line:#dedede}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fff;color:var(--ink);font:14px/1.85 "Courier New",Courier,monospace}a{color:inherit}a:focus-visible{outline:2px solid #222;outline-offset:4px}.wrap{width:min(100% - 36px,920px);margin:auto}header{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:23px 0;border-bottom:1px solid var(--line)}.brand{font-weight:bold;letter-spacing:.06em;text-decoration:none}nav{display:flex;flex-wrap:wrap;gap:18px}nav a{text-decoration:none;font-size:12px}nav a:hover{text-decoration:underline}.hero{text-align:center;padding:64px 0 56px;min-height:65vh;display:flex;flex-direction:column;justify-content:center;align-items:center}.art{display:block;width:min(100%,500px);height:auto;max-height:56vh;object-fit:contain;margin:0 auto 32px;animation:apparition 7s ease-in-out infinite}@keyframes apparition{0%,100%{opacity:.2}45%,55%{opacity:1}}@media(prefers-reduced-motion:reduce){.art{animation:none}}.eyebrow,.section-no{font-size:11px;letter-spacing:.13em;color:var(--muted)}h1{font-size:clamp(24px,5vw,36px);font-weight:normal;line-height:1.3;margin:14px 0 20px}h2{font-size:19px;font-weight:normal;margin:12px 0 22px}.intro{max-width:720px}.intro p{margin:0 0 20px}.actions{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:24px}.button{display:inline-block;padding:10px 18px;border:1px solid var(--ink);text-decoration:none;font-size:12px}.button.primary{background:var(--ink);color:#fff}.button:hover{background:#eee;color:var(--ink)}section{padding:46px 0;border-top:1px solid var(--line)}.services{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 30px}.service{padding:17px 0;border-top:1px solid var(--line)}.service strong{font-weight:normal}.service p{font-size:12px;color:var(--muted);margin:5px 0 0}.portfolio-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.project{border:1px solid var(--line);padding:16px}.project video{width:100%;display:block;background:#f4f4f4;aspect-ratio:16/9;object-fit:contain}.project h3{font-size:14px;font-weight:normal;margin:12px 0 3px}.project p,.note{font-size:12px;color:var(--muted);margin:0}.contact{text-align:center}.contact p{margin:4px 0}footer{display:flex;justify-content:space-between;gap:16px;border-top:1px solid var(--line);padding:24px 0;color:var(--muted);font-size:11px}@media(max-width:650px){header{flex-direction:column;gap:12px}nav{justify-content:center;gap:12px}.hero{padding:38px 0;min-height:0}.services,.portfolio-grid{grid-template-columns:1fr}section{padding:35px 0}footer{flex-direction:column;gap:4px}}
 </style>
 </head>
 <body><div class="wrap">
-<header><a class="brand" href="#accueil">-IlonaBStudio-</a><nav><a href="#apropos">Présentation</a><a href="#services">Services</a><a href="#contact">Contact</a></nav></header>
+<header><a class="brand" href="#accueil">-IlonaBStudio-</a><nav><a href="#apropos">Présentation</a><a href="#services">Services</a><a href="#portfolio">Portfolio</a><a href="#contact">Contact</a></nav></header>
 <main>
 <div class="hero" id="accueil">
-<img class="art" src="identite-visuelle.png" alt="Identité visuelle artistique IlonaBStudio aux motifs célestes dorés sur fond noir">
-<div class="eyebrow">Studio créatif indépendant · Var (83)</div>
+<img class="art" src="identite-visuelle.png" alt="Identité visuelle IlonaBStudio">
+<div class="eyebrow">STUDIO CRÉATIF INDÉPENDANT · VAR (83)</div>
 <h1>IlonaBStudio</h1>
 <div class="intro" id="apropos">
-<p lang="fr">🇫🇷 Je crée des paroles de chansons, des visuels, des traitements audios, et des masterings ainsi que des vidéos courtes ou longues pour les artistes. Une approche professionnelle, créative et originale, à prix accessible. À votre écoute, je m’adapte à vos envies pour donner vie à votre vision.</p>
-<p lang="en">🇬🇧 I create song lyrics, visuals, and short and long-form videos for artists. A professional, creative, and original approach at affordable prices. I listen to your ideas and tailor my work to bring your vision to life.</p>
+<p lang="fr">🇫🇷 Je crée des paroles de chansons, des visuels, des traitements audio, des masterings et des vidéos courtes ou longues pour les artistes. Une approche professionnelle, créative et originale, à prix accessible. À votre écoute, je m’adapte à vos envies pour donner vie à votre vision.</p>
+<p lang="en">🇬🇧 I create song lyrics, visuals, audio processing, mastering, and short- or long-form videos for artists. A professional, creative, and original approach at affordable prices. I listen to your ideas and tailor my work to bring your vision to life.</p>
 </div>
-<div class="actions"><a class="button primary" href="#services">Découvrir mes services</a><a class="button" href="https://comeup.com/fr/@ilonabstudio" target="_blank" rel="noopener noreferrer">Mon profil ComeUp ↗</a></div>
+<div class="actions"><a class="button primary" href="#services">Mes services</a><a class="button" href="https://comeup.com/fr/@ilonabstudio" target="_blank" rel="noopener noreferrer">Mon profil ComeUp ↗</a></div>
 </div>
 <section id="services"><div class="section-no">01 / SERVICES</div><h2>Créations sur mesure.</h2><div class="services">
-<div class="service"><strong>01 — Paroles de chansons</strong><p>Écriture de textes et paroles pour artistes.</p></div>
-<div class="service"><strong>02 — Visuels</strong><p>Création de visuels et univers artistiques.</p></div>
-<div class="service"><strong>03 — Audio & mastering</strong><p>Traitement audio et mastering de morceaux.</p></div>
-<div class="service"><strong>04 — Vidéos</strong><p>Montage de vidéos courtes et longues.</p></div>
+<div class="service"><strong>01 — Montage vidéo</strong><p>Montage de vidéos courtes et longues.</p></div>
+<div class="service"><strong>02 — Montage vidéo par IA</strong><p>Création et montage assistés par intelligence artificielle.</p></div>
+<div class="service"><strong>03 — CapCut</strong><p>Montage et édition sur CapCut.</p></div>
+<div class="service"><strong>04 — Sous-titres multilingues</strong><p>Sous-titrage de contenus en plusieurs langues.</p></div>
+<div class="service"><strong>05 — Prestations bilingues</strong><p>Contenus en français et en anglais.</p></div>
+<div class="service"><strong>06 — Images générées par IA</strong><p>Visuels originaux pour vos projets.</p></div>
+<div class="service"><strong>07 — Clips musicaux</strong><p>Vidéos et univers visuels pour artistes.</p></div>
+<div class="service"><strong>08 — Vidéos TikTok</strong><p>Formats courts pour TikTok.</p></div>
+<div class="service"><strong>09 — Écriture de chansons</strong><p>Paroles et textes artistiques.</p></div>
+<div class="service"><strong>10 — Vidéos réseaux sociaux</strong><p>Montage pour les plateformes sociales.</p></div>
+<div class="service"><strong>11 — Traitement audio</strong><p>Nettoyage, retouches et amélioration audio.</p></div>
+<div class="service"><strong>12 — Mastering</strong><p>Finalisation audio de vos morceaux.</p></div>
 </div></section>
-<section class="contact" id="contact"><div class="section-no">02 / CONTACT</div><h2>Parlons de votre projet.</h2><p>Ilona Barthélémy · Var (83)</p><p><a href="mailto:iloblissbarth@gmail.com">iloblissbarth@gmail.com</a></p><div class="actions"><a class="button primary" href="mailto:iloblissbarth@gmail.com?subject=Projet%20IlonaBStudio">Me contacter</a><a class="button" href="https://comeup.com/fr/@ilonabstudio" target="_blank" rel="noopener noreferrer">ComeUp ↗</a></div></section>
+<section id="portfolio"><div class="section-no">02 / PORTFOLIO</div><h2>Mes réalisations.</h2><p class="note">Les vidéos seront ajoutées ici prochainement.</p>
+<div class="portfolio-grid" style="margin-top:20px">
+<div class="project"><div style="aspect-ratio:16/9;background:#f5f5f5;display:grid;place-items:center;color:#777">VIDÉO À VENIR</div><h3>Projet 01</h3><p>Extrait de portfolio</p></div>
+<div class="project"><div style="aspect-ratio:16/9;background:#f5f5f5;display:grid;place-items:center;color:#777">VIDÉO À VENIR</div><h3>Projet 02</h3><p>Extrait de portfolio</p></div>
+</div>
+<!-- Pour ajouter une vidéo hébergée dans le dépôt, remplacez un bloc "VIDÉO À VENIR" par : <video controls preload="metadata" playsinline><source src="videos/ma-video.mp4" type="video/mp4">Votre navigateur ne prend pas en charge la vidéo.</video> -->
+</section>
+<section class="contact" id="contact"><div class="section-no">03 / CONTACT</div><h2>Parlons de votre projet.</h2><p>Ilona Barthélémy · Var (83)</p><p><a href="mailto:iloblissbarth@gmail.com">iloblissbarth@gmail.com</a></p><div class="actions"><a class="button primary" href="mailto:iloblissbarth@gmail.com?subject=Projet%20IlonaBStudio">Me contacter</a><a class="button" href="https://comeup.com/fr/@ilonabstudio" target="_blank" rel="noopener noreferrer">ComeUp ↗</a></div></section>
 </main><footer><span>© 2026 -IlonaBStudio-</span><span>Ilona Barthélémy · 83 · iloblissbarth@gmail.com</span></footer>
 </div></body></html>
